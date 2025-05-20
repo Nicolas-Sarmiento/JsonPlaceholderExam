@@ -1,2 +1,3 @@
-# JsonPlaceholderExam
-Uso de imágenes de docker con la API de jsonplaceholder
+# Parcial Sistemas Distribuidos
+
+Nombres: Nicolas Sarmiento Vargas, Nicolas Samuel Tinjaca Topia
