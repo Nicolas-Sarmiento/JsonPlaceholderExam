@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Álbumes</title>
+  <style>
+    table {
+      width: 60%;
+      border-collapse: collapse;
+      margin: 20px auto;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lista de Álbumes</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>ID usuario</th>
+        <th>Título</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <% albums.forEach(album => { %>
+        <tr>
+          <td><%= album.id %></td>
+          <td><%= album.userId %></td>
+          <td><%= album.title %></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
